@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Books\BookController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Auth::routes();
+
+Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/category/{slug}', [BookController::class, 'showBooks'])->name('books');
