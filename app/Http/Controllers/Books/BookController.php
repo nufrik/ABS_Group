@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Books;
 
 use App\Http\Controllers\Controller;
 use App\Services\Book\BookServiceInterface;
-use Illuminate\Http\Request;
+
 
 class BookController extends Controller
 {
@@ -23,5 +23,4 @@ class BookController extends Controller
             'books' => $data,
         ]);
     }
-
 }
