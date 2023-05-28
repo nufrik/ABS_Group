@@ -11,6 +11,16 @@ class Book extends Model
     use HasFactory;
     use SoftDeletes;
 
+    protected $fillable = [
+        'title',
+        'slug',
+        'description',
+        'year',
+        'cover',
+        'category_id',
+        'author_id',
+    ];
+
     public function category()
     {
         return $this->belongsTo(Category::class);
@@ -18,6 +28,6 @@ class Book extends Model
 
     public function author()
     {
-        return $this->hasOne(Author::class);
+        return $this->hasOne(Author::class, 'id', 'author_id');
     }
 }
