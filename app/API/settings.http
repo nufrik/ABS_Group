@@ -1,0 +1,212 @@
+// получить все категории
+
+GET http://127.0.0.1:8000/api/categories
+Accept: application/json;
+Content-Type: application/json;
+
+###
+
+// получить категорию по id
+
+GET http://127.0.0.1:8000/api/categories/3
+Accept: application/json;
+Content-Type: application/json;
+
+###
+
+// добавить категорию
+
+POST http://127.0.0.1:8000/api/categories
+Accept: application/json;
+Content-Type: application/json;
+Authorization: Bearer 9bBp6yOVCwHEiWu2n6k0A1NBpjnD0FL4
+
+{
+    "title":"TEST",
+    "slug":"test",
+    "description":"test"
+}
+
+###
+
+// редактировать категорию
+
+PUT http://127.0.0.1:8000/api/categories/4
+Accept: application/json;
+Content-Type: application/json;
+Authorization: Bearer 9bBp6yOVCwHEiWu2n6k0A1NBpjnD0FL4
+
+{
+    "title":"TEST",
+    "slug":"test",
+    "description":"test"
+}
+
+###
+
+// удалить категорию по id
+
+DELETE http://127.0.0.1:8000/api/categories/4
+Accept: application/json;
+Content-Type: application/json;
+Authorization: Bearer 9bBp6yOVCwHEiWu2n6k0A1NBpjnD0FL4
+
+###
+
+// получить все книги
+
+GET http://127.0.0.1:8000/api/books
+Accept: application/json;
+Content-Type: application/json;
+
+###
+
+// получить книгу по id
+
+GET http://127.0.0.1:8000/api/books/13
+Accept: application/json;
+Content-Type: application/json;
+
+###
+
+// добавить книгу
+
+POST http://127.0.0.1:8000/api/books
+Accept: application/json;
+Content-Type: application/json;
+Authorization: Bearer 9bBp6yOVCwHEiWu2n6k0A1NBpjnD0FL4
+
+{
+    "title":"TEST",
+    "slug":"test",
+    "year":5555,
+    "description":"test",
+    "cover":"vx3G6SZWXlVmL2ylbH1K.jpg",
+    "category_id": 1,
+    "author_id":51
+}
+
+###
+
+// редактировать книгу
+
+PUT http://127.0.0.1:8000/api/books/2
+Accept: application/json;
+Content-Type: application/json;
+Authorization: Bearer 9bBp6yOVCwHEiWu2n6k0A1NBpjnD0FL4
+
+{
+    "title":"TEST",
+    "slug":"test",
+    "year":5555,
+    "description":"test",
+    "cover":"vx3G6SZWXlVmL2ylbH1K.jpg",
+    "category_id": 2,
+    "author_id":5
+}
+
+###
+
+// удалить книгу по id
+
+DELETE http://127.0.0.1:8000/api/books/2
+Accept: application/json;
+Content-Type: application/json;
+Authorization: Bearer 9bBp6yOVCwHEiWu2n6k0A1NBpjnD0FL4
+
+###
+
+// получить всех авторов
+
+GET http://127.0.0.1:8000/api/authors
+Accept: application/json;
+Content-Type: application/json;
+
+###
+
+// получить автора по id
+
+GET http://127.0.0.1:8000/api/authors/13
+Accept: application/json;
+Content-Type: application/json;
+
+###
+
+// добавить автора
+
+POST http://127.0.0.1:8000/api/authors
+Accept: application/json;
+Content-Type: application/json;
+Authorization: Bearer 9bBp6yOVCwHEiWu2n6k0A1NBpjnD0FL4
+
+{
+    "name":"TEST",
+    "country":"test",
+    "comment":"test"
+}
+
+###
+
+// редактировать автора
+
+PUT http://127.0.0.1:8000/api/authors/2
+Accept: application/json;
+Content-Type: application/json;
+Authorization: Bearer 9bBp6yOVCwHEiWu2n6k0A1NBpjnD0FL4
+
+{
+    "name":"TEST",
+    "country":"test",
+    "comment":"test"
+}
+
+###
+
+// удалить автора по id
+
+DELETE http://127.0.0.1:8000/api/authors/3
+Accept: application/json;
+Content-Type: application/json;
+Authorization: Bearer 9bBp6yOVCwHEiWu2n6k0A1NBpjnD0FL4
+
+###
+
+// добавить юзера
+
+POST http://127.0.0.1:8000/api/users
+Accept: application/json;
+Content-Type: application/json;
+
+{
+    "name":"TEST",
+    "email":"test@test.com",
+    "role_id":2,
+    "password":"test123456"
+}
+
+###
+
+// редактировать юзера
+
+PUT http://127.0.0.1:8000/api/users/3
+Accept: application/json;
+Content-Type: application/json;
+Authorization: Bearer 9bBp6yOVCwHEiWu2n6k0A1NBpjnD0FL4
+
+{
+    "name":"TEST2",
+    "email":"test2@test.com",
+    "role_id":2,
+    "password":"test123456"
+}
+
+###
+
+// удалить юзера по id
+
+DELETE http://127.0.0.1:8000/api/users/3
+Accept: application/json;
+Content-Type: application/json;
+Authorization: Bearer 9bBp6yOVCwHEiWu2n6k0A1NBpjnD0FL4
+
+###
