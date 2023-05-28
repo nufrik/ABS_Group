@@ -19,3 +19,5 @@ Auth::routes();
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/category/{slug}', [BookController::class, 'showBooks'])->name('books');
+
+Route::get('author', [BookController::class, 'showAuthor']);
