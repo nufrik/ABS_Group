@@ -1,7 +1,7 @@
 Инструкция для запуска приложения:
 
-1. Клонировать репазиторий - https://github.com/nufrik/ABS_Group.git  (HTTPS)
-                           - git@github.com:nufrik/ABS_Group.git      (SSH)
+1. Клонировать репазиторий - git clone https://github.com/nufrik/ABS_Group.git  (HTTPS)
+                           - git clone git@github.com:nufrik/ABS_Group.git      (SSH)
 
 2. Создаём БД ( с именем например ABS_Group)
 
