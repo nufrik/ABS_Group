@@ -3,11 +3,11 @@
 1. Клонировать репазиторий - git clone https://github.com/nufrik/ABS_Group.git  (HTTPS)
                            - git clone git@github.com:nufrik/ABS_Group.git      (SSH)
 
-2. Создаём БД ( с именем например ABS_Group)
+2. Инициализация. В терминале с проектом прописываем команду composer install
 
-3. В корне проекта в фале .env прописываем подключение к БД (DB_DATABASE=ABS_Group)
+3. Создаём БД ( с именем например ABS_Group)
 
-4. Инициализация. В терминале с проектом прописываем команду composer install
+4. В корне проекта переименовываем файл .env.example на .env и прописываем в нём подключение к БД (DB_DATABASE=ABS_Group)
 
 5. Запускаем сервер php artisan serve
 
