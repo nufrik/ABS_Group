@@ -3,6 +3,7 @@ namespace Database\Seeders;
 
 use App\Models\Book;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Str;
 
 
 class BooksSeeder extends Seeder
@@ -17,7 +18,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 1,
                 'description' => 'Описание книги 1',
                 'category_id' => '1',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 2',
@@ -26,7 +27,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 2,
                 'description' => 'Описание книги 2',
                 'category_id' => '1',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 3',
@@ -35,7 +36,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 3,
                 'description' => 'Описание книги 3',
                 'category_id' => '1',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 4',
@@ -44,7 +45,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 4,
                 'description' => 'Описание книги 4',
                 'category_id' => '1',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 5',
@@ -53,7 +54,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 5,
                 'description' => 'Описание книги 5',
                 'category_id' => '1',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 6',
@@ -62,7 +63,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 6,
                 'description' => 'Описание книги 6',
                 'category_id' => '1',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 7',
@@ -71,7 +72,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 7,
                 'description' => 'Описание книги 7',
                 'category_id' => '1',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 8',
@@ -80,7 +81,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 8,
                 'description' => 'Описание книги 8',
                 'category_id' => '1',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 9',
@@ -89,7 +90,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 9,
                 'description' => 'Описание книги 9',
                 'category_id' => '1',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 10',
@@ -98,7 +99,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 10,
                 'description' => 'Описание книги 10',
                 'category_id' => '1',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 11',
@@ -107,7 +108,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 11,
                 'description' => 'Описание книги 11',
                 'category_id' => '2',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 12',
@@ -116,7 +117,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 12,
                 'description' => 'Описание книги 12',
                 'category_id' => '2',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 13',
@@ -125,7 +126,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 13,
                 'description' => 'Описание книги 13',
                 'category_id' => '2',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 14',
@@ -134,7 +135,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 14,
                 'description' => 'Описание книги 14',
                 'category_id' => '2',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 15',
@@ -143,7 +144,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 15,
                 'description' => 'Описание книги 15',
                 'category_id' => '2',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 16',
@@ -152,7 +153,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 16,
                 'description' => 'Описание книги 16',
                 'category_id' => '2',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 17',
@@ -161,7 +162,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 17,
                 'description' => 'Описание книги 17',
                 'category_id' => '2',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 18',
@@ -170,7 +171,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 18,
                 'description' => 'Описание книги 18',
                 'category_id' => '2',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 19',
@@ -179,7 +180,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 19,
                 'description' => 'Описание книги 19',
                 'category_id' => '2',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 20',
@@ -188,7 +189,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 20,
                 'description' => 'Описание книги 20',
                 'category_id' => '2',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 21',
@@ -197,7 +198,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 21,
                 'description' => 'Описание книги 21',
                 'category_id' => '3',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 22',
@@ -206,7 +207,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 22,
                 'description' => 'Описание книги 22',
                 'category_id' => '3',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 23',
@@ -215,7 +216,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 23,
                 'description' => 'Описание книги 23',
                 'category_id' => '3',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 24',
@@ -224,7 +225,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 24,
                 'description' => 'Описание книги 24',
                 'category_id' => '3',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 25',
@@ -233,7 +234,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 25,
                 'description' => 'Описание книги 25',
                 'category_id' => '3',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 26',
@@ -242,7 +243,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 26,
                 'description' => 'Описание книги 26',
                 'category_id' => '3',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 27',
@@ -251,7 +252,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 27,
                 'description' => 'Описание книги 27',
                 'category_id' => '3',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 28',
@@ -260,7 +261,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 28,
                 'description' => 'Описание книги 28',
                 'category_id' => '3',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 29',
@@ -269,7 +270,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 29,
                 'description' => 'Описание книги 29',
                 'category_id' => '3',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 30',
@@ -278,7 +279,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 30,
                 'description' => 'Описание книги 30',
                 'category_id' => '3',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 31',
@@ -287,7 +288,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 31,
                 'description' => 'Описание книги 31',
                 'category_id' => '4',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 32',
@@ -296,7 +297,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 32,
                 'description' => 'Описание книги 32',
                 'category_id' => '4',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 33',
@@ -305,7 +306,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 33,
                 'description' => 'Описание книги 33',
                 'category_id' => '4',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 34',
@@ -314,7 +315,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 34,
                 'description' => 'Описание книги 34',
                 'category_id' => '4',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 35',
@@ -323,7 +324,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 35,
                 'description' => 'Описание книги 35',
                 'category_id' => '4',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 36',
@@ -332,7 +333,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 36,
                 'description' => 'Описание книги 36',
                 'category_id' => '4',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 37',
@@ -341,7 +342,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 37,
                 'description' => 'Описание книги 37',
                 'category_id' => '4',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 38',
@@ -350,7 +351,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 38,
                 'description' => 'Описание книги 38',
                 'category_id' => '4',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 39',
@@ -359,7 +360,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 39,
                 'description' => 'Описание книги 39',
                 'category_id' => '4',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 40',
@@ -368,7 +369,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 40,
                 'description' => 'Описание книги 40',
                 'category_id' => '4',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 41',
@@ -377,7 +378,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 41,
                 'description' => 'Описание книги 41',
                 'category_id' => '5',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 42',
@@ -386,7 +387,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 42,
                 'description' => 'Описание книги 42',
                 'category_id' => '5',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 43',
@@ -395,7 +396,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 43,
                 'description' => 'Описание книги 43',
                 'category_id' => '5',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 44',
@@ -404,7 +405,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 44,
                 'description' => 'Описание книги 44',
                 'category_id' => '5',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 45',
@@ -413,7 +414,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 45,
                 'description' => 'Описание книги 45',
                 'category_id' => '5',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 46',
@@ -422,7 +423,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 46,
                 'description' => 'Описание книги 46',
                 'category_id' => '5',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 47',
@@ -431,7 +432,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 47,
                 'description' => 'Описание книги 47',
                 'category_id' => '5',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 48',
@@ -440,7 +441,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 48,
                 'description' => 'Описание книги 48',
                 'category_id' => '5',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 49',
@@ -449,7 +450,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 49,
                 'description' => 'Описание книги 49',
                 'category_id' => '5',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
             [
                 'title' => 'Книга 50',
@@ -458,7 +459,7 @@ class BooksSeeder extends Seeder
                 'author_id' => 50,
                 'description' => 'Описание книги 50',
                 'category_id' => '5',
-                'cover' => '',
+                'cover' => Str::random(20) . '.jpg',
             ],
         ]);
     }
